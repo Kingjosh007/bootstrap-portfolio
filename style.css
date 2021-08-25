@@ -77,3 +77,68 @@ h1 {
   margin-left: 60px;
   margin-top: -75px;
 }
+
+/* Work section */
+
+.work-section {
+  margin-top: 100px;
+}
+
+.title-container h2 {
+  margin-left: 25px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.hero-project {
+  margin-top: 80px;
+}
+
+.hero-project .text-container .title {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.hero-project .text-container .description {
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #091e42;
+}
+
+.hero-project .text-container .technologies {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.technologies li {
+  border: 1px solid #8993a4;
+  font-size: 15px;
+  font-family: 'Inter', serif;
+  line-height: 20px;
+  height: 40px;
+  padding: 10px 12px 10px 12px;
+}
+
+.hero-project .text-container .see-project-btn {
+  padding: 12px;
+  max-width: 150px;
+  background: #f55800;
+  font-family: 'Inter', serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+}
