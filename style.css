@@ -12,4 +12,9 @@ a {
 
 .main-section {
   padding-top: 200px;
+  min-height: 95vh;
+  background-image: url("images/Illustration-header.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right top;
 }
