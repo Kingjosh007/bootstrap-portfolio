@@ -5,3 +5,11 @@
 *::after {
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+.main-section {
+  padding-top: 200px;
+}

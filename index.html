@@ -9,26 +9,52 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Importing Font Awesome--> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Style.css -->
+    <link rel="stylesheet" href="style.css">
+
     <title>Portfolio website using Bootstrap</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg px-5 bg-secondary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">John Doe</a>
+            <a class="navbar-brand text-white" href="#">John Doe</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link"  href="#">Portfolio</a>
+                  <a class="nav-link text-white"  href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link text-white" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link text-white" href="#">Contact</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
+                  <li class="nav-item text-white">
+                    <a class="nav-link text-white" href="#"><i class="far fa-envelope"></i></a>
                   </li>
+            </ul>
         </div>
-    </nav> 
+    </nav>
+    <main class="main-section d-flex flex-row justify-content-start pl-5 bg-dark">
+        
+            <div class="row text-white px-5">
+                <div class="icons-container col-md-4 d-flex flex-column gap-3">
+                    <a href="https://github.com/Kingjosh007" target="_blank" rel="noreferrer noopener"><img
+                        src="images/icons/github-logo.png" alt="Github logo leading to my profile"></a>
+                <a href="https://www.linkedin.com/in/king-josaphat-chewa-aa154011b" target="_blank"
+                    rel="noreferrer noopener"><img src="images/icons/linkedin-logo.png"
+                        alt="LinkedIn logo leading to my profile"></a>
+                <a href="https://angel.co/u/king-josaphat-nkouete-chewa" target="_blank" rel="noreferrer noopener"><img
+                        src="images/icons/angellist-logo.png" alt="AngelList logo leading to my profile"></a>
+                <a href="https://twitter.com/KingJoChewa" target="_blank" rel="noreferrer noopener"><img
+                        src="images/icons/twitter-logo.png" alt="Twitter logo leading to my profile"></a>
+                <a href="https://medium.com/@kingjochewa2007" target="_blank" rel="noreferrer noopener"><img
+                        src="images/icons/medium-logo.png" alt="Medium logo leading to my profile"></a>
+                </div>
+
+                <div class="text-container col-md-8">col-sm-8</div>
+            </div>
+        
+    </main> 
 </body>
 </html>
