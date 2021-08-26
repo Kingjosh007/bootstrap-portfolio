@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -156,4 +160,9 @@ h1 {
   background-attachment: scroll;
   background-position: right top;
   background-color: #1c1a19;
+}
+
+form {
+  width: 684px;
+  margin-left: 30%;
 }
