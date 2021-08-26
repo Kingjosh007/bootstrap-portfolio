@@ -149,3 +149,11 @@ h1 {
 .card_width {
   width: 18rem;
 }
+
+.about-section {
+  background-image: url("images/illustration-about-me.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right top;
+  background-color: #1c1a19;
+}
