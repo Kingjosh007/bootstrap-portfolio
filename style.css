@@ -142,3 +142,11 @@ h1 {
   text-align: center;
   color: #fff;
 }
+
+.see-project-btn {
+  background: #f55800;
+}
+
+.card_width {
+  width: 18rem;
+}
