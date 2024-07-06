@@ -47,7 +47,7 @@ Here is the link to the live version of this project: [See it live](https://king
 - Twitter: [@KingJoChewa](https://twitter.com/KingJoChewa)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/king-josaphat-chewa-aa154011b/)
 
-👤 **Badr Benslama**
+👤 **Goldinium**
 
 - GitHub: [@Goldinium](https://github.com/Goldinium)
 
